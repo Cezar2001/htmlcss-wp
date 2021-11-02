@@ -103,7 +103,8 @@ img{
 
 .big-foto{
     width: 660px;
-    height: 252px; 
+    height: 250px;
+    object-fit: cover; 
 }
 
 .margin.right{
@@ -114,6 +115,7 @@ img{
 .medium-foto{
     height: 250px;
     width: 250px;
+    object-fit: cover;
 }
 
 h4{
