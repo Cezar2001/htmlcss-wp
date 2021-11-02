@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 30px auto;
+    
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+header{
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.space{
+    width: 160px;
+    height: 60px;
+    border-right: 1px rgb(204, 204, 204) solid;
+    background: url(logo.png) no-repeat;
+    background-size: contain;
+
+}
+
+nav ul{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(177, 177, 177);
+}
+
+.neck{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    filter: brightness(95%);
+    height: 700px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    bottom: 120px;
+    left: 50px;
+    width: 550px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    float:left;
+    width: 100%;   
+}
+
+.bar-content{
+    height: 60px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span{
+    color:rgb(204, 204, 204);
+}
+
+.main{
+    background-color: rgb(141, 192, 250);
+    height: 725px;
+    float: left;
+}
+
+.margins.left{
+    width: 250px;
+    background: url(img-1.jpg) no-repeat;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+h4{
+    position: absolute;
+    top: 280px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-1{
+    position: absolute;
+    top: 310px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.middle{
+    width: 680px;
+    margin: 0 10px;
+    background: url(banner-2.jpg);
+    background-size: cover;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: rgb(130, 13, 185);
+    height: 50px;
+}
