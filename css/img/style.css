@@ -77,13 +77,8 @@ main{
 }
 
 .main{
-    height: 725px;
+    height: 650px;
     float: left;
-}
-
-.margin.left{
-    width: 250px;
-    position: relative;
 }
 
 img{
@@ -91,21 +86,14 @@ img{
     border-radius: 20px;
 }
 
+.margin.left{
+    width: 250px;
+    position: relative;
+}
+
 .small-foto{
     width: 250px;
     height: 250px;
-}
-
-h4{
-    position: absolute;
-    top: 280px;
-    font-family: 'Montserrat', sans-serif;
-}
-.text-1{
-    position: absolute;
-    top: 320px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(204, 204, 204)
 }
 
 .middle{
@@ -115,8 +103,7 @@ h4{
 
 .big-foto{
     width: 660px;
-    height: 252px;
-    
+    height: 252px; 
 }
 
 .margin.right{
@@ -127,6 +114,19 @@ h4{
 .medium-foto{
     height: 250px;
     width: 250px;
+}
+
+h4{
+    position: absolute;
+    top: 280px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-1{
+    position: absolute;
+    top: 320px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(204, 204, 204)
 }
 
 footer{
@@ -140,5 +140,6 @@ footer{
 
 .cuore{
     color: red;
+    font-size: 20px;
 }
 
