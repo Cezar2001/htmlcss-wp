@@ -43,7 +43,7 @@ nav ul li{
 }
 
 .neck{
-    background-image: url(banner.jpg);
+    background: url(banner.jpg) no-repeat;
     background-size: cover;
     filter: brightness(95%);
     height: 700px;
@@ -63,7 +63,7 @@ nav ul li{
 
 main{
     float:left;
-    width: 100%;   
+    width: 100%; 
 }
 
 .bar-content{
@@ -72,22 +72,28 @@ main{
     font-family: 'Montserrat', sans-serif;
 }
 
-span{
+.sottotitolo{
     color:rgb(204, 204, 204);
 }
 
 .main{
-    background-color: rgb(141, 192, 250);
     height: 725px;
     float: left;
 }
 
-.margins.left{
+.margin.left{
     width: 250px;
-    background: url(img-1.jpg) no-repeat;
-    border-radius: 30px;
     position: relative;
+}
 
+img{
+    filter: brightness(90%);
+    border-radius: 20px;
+}
+
+.small-foto{
+    width: 250px;
+    height: 250px;
 }
 
 h4{
@@ -97,19 +103,42 @@ h4{
 }
 .text-1{
     position: absolute;
-    top: 310px;
+    top: 320px;
     font-family: 'Montserrat', sans-serif;
+    color: rgb(204, 204, 204)
 }
 
 .middle{
-    width: 680px;
-    margin: 0 10px;
-    background: url(banner-2.jpg);
-    background-size: cover;
+    position: relative;
+    margin: 0 20px;
+}
+
+.big-foto{
+    width: 660px;
+    height: 252px;
+    
+}
+
+.margin.right{
+    width: 250px;
+    position: relative;
+}
+
+.medium-foto{
+    height: 250px;
+    width: 250px;
 }
 
 footer{
-    margin-top: 20px;
-    background-color: rgb(130, 13, 185);
     height: 50px;
+    text-align: center;
 }
+
+.pié{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cuore{
+    color: red;
+}
+
